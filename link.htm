@@ -1,0 +1,37 @@
+!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic HTML Page</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Arial:wght@400&display=swap">
+</head>
+<body style="background-color: #f0f8ff; margin: 0; font-family: Arial, sans-serif;">
+    <div class="container">
+        <!-- Header Section -->
+        <header class="header" style="text-align: center; padding: 20px;">
+            <h1 style="color: #ff6347;">Welcome to My Webpage</h1>
+        </header>
+
+        <!-- Paragraph Section -->
+        <div class="content" style="text-align: center; margin: 20px;">
+            <p style="color: hsl(240, 100%, 50%); font-size: 18px;">
+                This is a basic example of an HTML page with in-line CSS styling. Let's explore different ways to style this page!
+            </p>
+        </div>
+
+        <!-- Image Section -->
+        <section class="image-section" style="display: flex; justify-content: space-around; padding: 20px; background: url('background.jpg') no-repeat center center; background-size: cover;">
+            <!-- Image 1 with RGBA background -->
+            <div class="image1" style="background-color: rgba(0, 128, 0, 0.5); padding: 10px;">
+                <img src="images/sample1.jpg" alt="Sample Image 1" style="max-width: 100%; height: auto;">
+            </div>
+            
+            <!-- Image 2 without RGBA -->
+            <div class="image2">
+                <img src="images/sample2.jpg" alt="Sample Image 2" style="max-width: 100%; height: auto;">
+            </div>
+        </section>
+    </div>
+</body>
+</html>
